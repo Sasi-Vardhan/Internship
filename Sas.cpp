@@ -8,6 +8,8 @@ void bubble{
 void mergesort(){
     cout<<"Divide and conqueror";
 }
+
+inti
 int main()
 {
 cout<<"How is it "<<endl;
