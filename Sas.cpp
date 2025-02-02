@@ -2,6 +2,9 @@
 
 using namespace std;
 
+void bubble{
+    //
+}
 int main()
 {
 cout<<"How is it "<<endl;

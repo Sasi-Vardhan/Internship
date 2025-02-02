@@ -7,8 +7,6 @@ from sklearn.metrics import mean_absolute_error
 
 teams=pd.read_csv('teams.csv')
 teams=teams[['team','country','year','athletes','age','prev_medals','medals']]
-teams
-teams.corr(numeric_only=True)["medals"]
 
 """ the correlation between medals and athletes is 0.84 which is good and the correlation between the prev_medals and medals is 0.92 
 which is very much helpful 
